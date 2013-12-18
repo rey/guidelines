@@ -38,7 +38,7 @@ Install Grunt:
 
 ## Writing delicious Sass
 
-### Use .sass syntax
+### Use `.sass` syntax
 
 * Spend more time writing code and less time pondering missing semicolons
 * `.sass` file becomes super readable
