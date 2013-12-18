@@ -40,7 +40,7 @@ error assets/stylesheets/sass/style.sass (Line 9 of assets/stylesheets/sass/part
 
 Bad:
 
-{% highlight sass %}
+{% highlight css %}
 section.fish
   z-index: 10
   background-color: #ffcc00
@@ -52,7 +52,7 @@ section.fish
 
 Good:
 
-{% highlight sass %}
+{% highlight css %}
 section.fish
   background-color: #ffcc00
   font-family: "Futura", "Helvetica", sans-serif
@@ -69,7 +69,7 @@ section.fish
 
 Bad:
 
-{% highlight sass %}
+{% highlight css %}
 section.fish
   background-color: #ffcc00
   font-family: "Futura", "Helvetica", sans-serif
@@ -82,7 +82,7 @@ section.fish
 
 Good:
 
-{% highlight sass %}
+{% highlight css %}
 section.fish
   +border-radius(20px)
   background-color: #ffcc00
