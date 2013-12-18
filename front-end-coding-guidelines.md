@@ -2,20 +2,45 @@
 
 ## Preamble
 
-## Technology
+## Prerequisites
 
-* Use Sass (http://sass-lang.com)
-* Use Compass (http://compass-style.org)
+### Sass ([Website](http://sass-lang.com))
 
-## Folder structure
+Install Sass:
 
-## Sass structure
+`gem install sass`
+
+### Compass ([Website](http://compass-style.org))
+
+Install Compass:
+
+`gem install compass`
+
+### Node ([Node](http://nodejs.org))
+
+Install Node:
+
+`brew install node`
+
+### Grunt ([Website](http://gruntjs.com/))
+
+Install Grunt:
+
+`npm install -g grunt-cli`
+
+## Getting started
+
+## Structure
+
+### File structure
+
+### Folder structure
 
 ## Writing delicious Sass
 
 ### Use .sass syntax
 
-* Spend more time writing code and less time wondering where a missed semicolon is
+* Spend more time writing code and less time pondering missing semicolons
 * `.sass` file becomes super readable
 
 ### Soft tabs, 2 spaces
@@ -38,7 +63,7 @@ error assets/stylesheets/sass/style.sass (Line 9 of assets/stylesheets/sass/part
 * Any developer will know where to expect to find rules in a block
 * Order out of chaos
 
-Bad:
+Bad :grimacing:
 
 ``` sass
 section.fish
@@ -50,7 +75,7 @@ section.fish
   padding: $gutter
 ```
 
-Good:
+Good :bowtie:
 
 ``` sass
 section.fish
@@ -67,7 +92,7 @@ section.fish
 * Any developer will know where to expect to find mixins in a block
 * Multiple mixins should be listed in alphabetical order
 
-Bad:
+Bad :grimacing:
 
 ``` sass
 section.fish
@@ -80,7 +105,7 @@ section.fish
   z-index: 10
 ```
 
-Good:
+Good :bowtie:
 
 ``` sass
 section.fish
