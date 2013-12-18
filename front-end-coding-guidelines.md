@@ -11,7 +11,7 @@
 
 ## Sass structure
 
-## Sass blocks
+## Writing delicious Sass
 
 ### Use .sass syntax
 
@@ -30,17 +30,17 @@ Sass will spit an error due to non-standard indentation:
 error assets/stylesheets/sass/style.sass (Line 9 of assets/stylesheets/sass/partials/_global.sass: Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.)
 ```
 
-* [How to set soft tabs in $editor](http://www.google.com/search?q=how to set soft tabs in $editor)
-* [How to set 2 space tabs in $editor](http://www.google.com/search?q=how to set 2 space tabs in $editor)
+* Search for [How to set soft tabs in $editor](http://www.google.com/search?q=how to set soft tabs in $editor)
+* Search for [How to set 2 space tabs in $editor](http://www.google.com/search?q=how to set 2 space tabs in $editor)
 
 ### Style blocks should be written in Alphabetical Order
 
 * Any developer will know where to expect to find rules in a block
-* Any order in chaos is good
+* Order out of chaos
 
 Bad:
 
-```
+{% highlight sass %}
 section.fish
   z-index: 10
   background-color: #ffcc00
@@ -48,11 +48,11 @@ section.fish
   font-family: "Futura", "Helvetica", sans-serif
   margin: $gutter
   padding: $gutter
-```
+{% endhighlight %}
 
 Good:
 
-```
+{% highlight sass %}
 section.fish
   background-color: #ffcc00
   font-family: "Futura", "Helvetica", sans-serif
@@ -60,7 +60,7 @@ section.fish
   padding: $gutter
   position: absolute
   z-index: 10
-```
+{% endhighlight %}
 
 ### Mixins are called at the top of a block before regular rules
 
@@ -69,7 +69,7 @@ section.fish
 
 Bad:
 
-```
+{% highlight sass %}
 section.fish
   background-color: #ffcc00
   font-family: "Futura", "Helvetica", sans-serif
@@ -78,11 +78,11 @@ section.fish
   padding: $gutter
   position: absolute
   z-index: 10
-```
+{% endhighlight %}
 
 Good:
 
-```
+{% highlight sass %}
 section.fish
   +border-radius(20px)
   background-color: #ffcc00
@@ -91,4 +91,4 @@ section.fish
   padding: $gutter
   position: absolute
   z-index: 10
-```
+{% endhighlight %}
