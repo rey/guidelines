@@ -16,8 +16,7 @@
 ### Use .sass syntax
 
 * Spend more time writing code and less time wondering where a missed semicolon is
-* .sass file becomes super readable
-* Be a Good Person
+* `.sass` file becomes super readable
 
 ### Soft tabs, 2 spaces
 
