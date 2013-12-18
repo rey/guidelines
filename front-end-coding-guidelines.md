@@ -40,7 +40,7 @@ error assets/stylesheets/sass/style.sass (Line 9 of assets/stylesheets/sass/part
 
 Bad:
 
-{% highlight css %}
+``` sass
 section.fish
   z-index: 10
   background-color: #ffcc00
@@ -48,11 +48,11 @@ section.fish
   font-family: "Futura", "Helvetica", sans-serif
   margin: $gutter
   padding: $gutter
-{% endhighlight %}
+```
 
 Good:
 
-{% highlight css %}
+``` sass
 section.fish
   background-color: #ffcc00
   font-family: "Futura", "Helvetica", sans-serif
@@ -60,7 +60,7 @@ section.fish
   padding: $gutter
   position: absolute
   z-index: 10
-{% endhighlight %}
+```
 
 ### Mixins are called at the top of a block before regular rules
 
@@ -69,7 +69,7 @@ section.fish
 
 Bad:
 
-{% highlight css %}
+``` sass
 section.fish
   background-color: #ffcc00
   font-family: "Futura", "Helvetica", sans-serif
@@ -78,11 +78,11 @@ section.fish
   padding: $gutter
   position: absolute
   z-index: 10
-{% endhighlight %}
+```
 
 Good:
 
-{% highlight css %}
+``` sass
 section.fish
   +border-radius(20px)
   background-color: #ffcc00
@@ -91,4 +91,4 @@ section.fish
   padding: $gutter
   position: absolute
   z-index: 10
-{% endhighlight %}
+```
