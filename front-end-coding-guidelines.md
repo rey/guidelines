@@ -45,9 +45,9 @@ Install Grunt:
 
 ### Soft tabs, 2 spaces
 
-* Standardises .sass files and prevents mixing of spaces/tabs
+* Standardises `.sass` files and prevents mixing of spaces/tabs
 * Prevents conflicting tab sizes
-* No hidden characters in .sass files
+* No hidden characters in `.sass` files
 
 Sass will spit an error due to non-standard indentation:
 
